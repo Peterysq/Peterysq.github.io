@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+    
+    <entry>
+      <title><![CDATA[关于云计算与科研方法的研究]]></title>
+      <url>http://yoursite.com/2016/06/24/%E5%85%B3%E4%BA%8E%E4%BA%91%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%A7%91%E7%A0%94%E6%96%B9%E6%B3%95%E7%9A%84%E7%A0%94%E7%A9%B6/</url>
+      <content type="html"><![CDATA[<p><strong>[摘要]：</strong></p>
+<p>　　现代计算机网络技术研究中，科学家采用了一系列科学研究方法进行研究。这些新科学方法的出现和运用，一方面为科学家们解决计算机理论中的难题、实现科学研究领域中的重大突破提供了重要手段，另一方面为丰富和发展马克思主义的哲学认识论提供了极为宝贵的实践材料和理论依据。<br>　　本文主要从科学研究与云计算的的关系，科学研究与云计算的的指导入手来研究计算机的网络新技术云计算。</p>
+<h3 id="一、当代科研发展迅速需要更高的技术支撑和推动力"><a href="#一、当代科研发展迅速需要更高的技术支撑和推动力" class="headerlink" title="一、当代科研发展迅速需要更高的技术支撑和推动力"></a>一、当代科研发展迅速需要更高的技术支撑和推动力</h3><p> 　　随着当代科学技术的迅猛发展，学科愈来愈多，分工愈来愈细，作为研究开发科学技术的方法就愈来愈显得重要，并趋于成熟完善、自成体系，形成一门全面揭示科学研究方法规律的科学——科学方法学。<br> 　　<br> 　　科学研究的方法，大体上可分为三类：第一类是适用于一切科学的最普遍的研究方法，即唯物辩证法和逻辑方法；第二类是适用于自然科学的一般研究方法，例如观察、实验、模拟(控制)、系统、信息和数字等方法；第三类是适用某几门或一门自然科学的特殊的研究方法。科学方法学在总结和概括这三类基本方法的基础上，揭示了科学研究这一事物的本质和运动规律，确立了研究方法的准则、基本理论和一般原则。[^1]<br> 　　<br>　　在计算科学领域，云计算是近些年被业界热议的重点话题之一，公有云、私有云、混合云等等这些名词时常出现，让人迷惑不解。其实笼统的来讲，云计算是一种新型的计算模式，其主要特点是在互联网存在的基础上通过动态可伸缩的虚拟化资源来进行计算。随着云计算的兴起，世界着名的IT企业如Microsoft、Google等公司都加入到了云计算的开发当中，对国内云计算产业来说，近年在云计算的学术领域、技术应用领域多诸多方面都进行了非常多的探索和尝试。<br>　　<br>　　云计算系统运用了许多技术，其中以编程模型、数据管理技术、数据存储技术、虚拟化技术、云计算平台管理技术最为关键，这些技术促使云成为科学研究最重要的工具之一。<br>　　<br>　　云计算核心技术如下：</p>
+<p>  (1)编程模型</p>
+<blockquote>
+<p>　　MapReduce是Google开发的java、Python、C++编程模型，它是一种简化的分布式编程模型和高效的任务调度模型，用于大规模数据集（大于1TB）的并行运算。严格的编程模型使云计算环境下的编程十分简单。MapReduce模式的思想是将要执行的问题分解成Map(映射)和Reduce(化简)的方式，先通过Map程序将数据切割成不相关的区块，分配（调度）给大量计算机处理，达到分布式运算的效果，再通过Reduce程序将结果汇整输出。</p>
+</blockquote>
+<p>(2) 海量数据分布存储技术</p>
+<blockquote>
+<p>　　云计算系统由大量服务器组成，同时为大量用户服务，因此云计算系统采用分布式存储的方式存储数据，用冗余存储的方式保证数据的可靠性。云计算系统中广泛使用的数据存储系统是Google的GFS和Hadoop团队开发的GFS的开源实现HDFS。<br>　　GFS即Google文件系统（Google File System），是一个可扩展的分布式文件系统，用于大型的、分布式的、对大量数据进行访问的应用。GFS的设计思想不同于传统的文件系统，是针对大规模数据处理和Google应用特性而设计的。它运行于廉价的普通硬件上，但可以提供容错功能。它可以给大量的用户提供总体性能较高的服务。<br>　　一个GFS集群由一个主服务器（master）和大量的块服务器(chunkserver)构成，并被许多客户（Client）访问。主服务器存储文件系统所以的元数据，包括名字空间、访问控制信息、从文件到块的映射以及块的当前位置。它也控制系统范围的活动，如块租约（lease）管理，孤儿块的垃圾收集，块服务器间的块迁移。主服务器定期通过HeartBeat消息与每一个块服务器通信，给块服务器传递指令并收集它的状态。GFS中的文件被切分为64MB的块并以冗余存储，每份数据在系统中保存3个以上备份。<br>　　客户与主服务器的交换只限于对元数据的操作，所有数据方面的通信都直接和块服务器联系，这大大提高了系统的效率，防止主服务器负载过重。</p>
+</blockquote>
+<p>(3) 海量数据管理技术</p>
+<blockquote>
+<p>云计算需要对分布的、海量的数据进行处理、分析，因此，数据管理技术必需能够高效的管理大量的数据。云计算系统中的数据管理技术主要是Google的BT(BigTable)数据管理技术和Hadoop团队开发的开源数据管理模块HBase。<br>　　BT是建立在GFS, Scheduler, Lock Service和MapReduce之上的一个大型的分布式数据库，与传统的关系数据库不同，它把所有数据都作为对象来处理，形成一个巨大的表格，用来分布存储大规模结构化数据。<br>　　Google的很多项目使用BT来存储数据，包括网页查询，Google earth和Google金融。这些应用程序对BT的要求各不相同：数据大小（从URL到网页到卫星图象）不同，反应速度不同（从后端的大批处理到实时数据服务）。对于不同的要求，BT都成功的提供了灵活高效的服务。</p>
+</blockquote>
+<p>（4）虚拟化技术</p>
+<blockquote>
+<p>　通过虚拟化技术可实现软件应用与底层硬件相隔离，它包括将单个资源划分成多个虚拟资源的裂分模式，也包括将多个资源整合成一个虚拟资源的聚合模式。虚拟化技术根据对象可分成存储虚拟化、计算虚拟化、网络虚拟化等，计算虚拟化又分为系统级虚拟化、应用级虚拟化和桌面虚拟化。</p>
+</blockquote>
+<p>（5）云计算平台管理技术</p>
+<blockquote>
+<p>　　云计算资源规模庞大，服务器数量众多并分布在不同的地点，同时运行着数百种应用，如何有效的管理这些服务器，保证整个系统提供不间断的服务是巨大的挑战。[^6]</p>
+</blockquote>
+<p>　　云计算系统的平台管理技术能够使大量的服务器协同工作，方便的进行业务部署和开通，快速发现和恢复系统故障，通过自动化、智能化的手段实现大规模系统的可靠运营，依靠这些核心技术，云计算为科研提供强有力的推动力与支撑。[^4]</p>
+<h3 id="二、云计算为当前科学研究提供有力工具"><a href="#二、云计算为当前科学研究提供有力工具" class="headerlink" title="二、云计算为当前科学研究提供有力工具"></a>二、云计算为当前科学研究提供有力工具</h3><blockquote>
+<p>云计算，是分布式计算（Distributed Computing）、并行计算（Parallel Computing）、效用计算（Utility Computing）、 网络存储（Network Storage Technologies）、虚拟化（Virtualization）、负载均衡（Load Balance）、热备份冗余（High Available）等传统计算机和网络技术发展融合的产物，是一种基于互联网的计算方式，通过这种方式，共享的软硬件资源和信息可以按需求提供给计算机和其他设备，它是继1980年代大型计算机到客户端-服务器的大转变之后的又一种巨变。[^3]　　</p>
+</blockquote>
+<p>　　用户不再需要了解“云”中基础设施的细节，不必具有相应的专业知识，也无需直接进行控制。云计算描述了一种基于互联网的新的IT服务增加、使用和交付模式，通常涉及通过互联网来提供动态易扩展而且经常是虚拟化的资源。</p>
+<p>　　云计算的特点如下：</p>
+<p>(1) 超大规模</p>
+<blockquote>
+<p>　　“云”具有相当的规模，Google云计算已经拥有100多万台服务器， Amazon、IBM、微软、Yahoo等的“云”均拥有几十万台服务器。企业私有云一般拥有数百上千台服务器。“云”能赋予用户前所未有的计算能力，无论多么难以计算的问题通过云都可以快速解决。</p>
+</blockquote>
+<p> (2) 虚拟化</p>
+<blockquote>
+<p>　　云计算本质上是一种数字化的虚拟服务，同时这种服务较以往的计算机服务更具有便捷性，用户在不清楚云计算具体机制的情况下，就能够得到相应的服务。云计算支持用户在任意位置、使用各种终端获取应用服务。所请求的资源来自“云”，而不是固定的有形的实体。应用在“云”中某处运行，但实际上用户无需了解、也不用担心应用运行的具体位置。只需要一台笔记本或者一个手机，就可以通过网络服务来实现我们需要的一切，甚至包括超级计算这样的任务。</p>
+</blockquote>
+<p>(3) 高可靠性</p>
+<blockquote>
+<p>　　云计算通过数据冗余的方式来对数据进行分析和管理服务，在海量的计算机群组的基础之下，能够大大提升系统稳定性和高性能计算性能，同时能够大幅度减小数据运算和处理过程当中的错误。“云”使用了数据多副本容错、计算节点同构可互换等措施来保障服务的高可靠性，使用云计算比使用本地计算机可靠。</p>
+</blockquote>
+<p>(4) 通用性</p>
+<blockquote>
+<p>　　云计算不针对特定的应用，在“云”的支撑下可以构造出千变万化的应用，同一个“云”可以同时支撑不同的应用运行。</p>
+</blockquote>
+<p>(5) 高可扩展性</p>
+<blockquote>
+<p>　　“云”的规模可以动态伸缩，满足应用和用户规模增长的需要。</p>
+</blockquote>
+<p>(6) 按需服务</p>
+<blockquote>
+<p>　　“云”是一个庞大的资源池，你按需购买；云可以像自来水，电，煤气那样计费。</p>
+</blockquote>
+<p>　(7) 经济性</p>
+<blockquote>
+<p>　　经济性是用户考量一种IT服务模式非常重要的一点，云计算平台的构建费用与超级计算机的构建费用相比要低很多，但是在性能上基本持平，这使得开发成本能够得到极大的节约。由于“云”的特殊容错措施可以采用极其廉价的节点来构成云，“云”的自动化集中式管理使大量企业无需负担日益高昂的数据中心管理成本，“云”的通用性使资源的利用率较之传统系统大幅提升，因此用户可以充分享受“云”的低成本优势，经常只要花费几百美元、几天时间就能完成以前需要数万美元、数月时间才能完成的任务。</p>
+</blockquote>
+<p>(8) 潜在的危险性</p>
+<blockquote>
+<p>　　云计算服务除了提供计算服务外，还必然提供了存储服务。但是云计算服务当前垄断在私人机构（企业）手中，而他们仅仅能够提供商业信用。对于政府机构、商业机构（特别像银行这样持有敏感数据的商业机构）对于选择云计算服务应保持足够的警惕。一旦商业用户大规模使用私人机构提供的云计算服务，无论其技术优势有多强，都不可避免地让这些私人机构以“数据（信息）”的重要性挟制整个社会。对于信息社会而言，“信息”是至关重要的。另一方面，云计算中的数据对于数据所有者以外的其他用户云计算用户是保密的，但是对于提供云计算的商业机构而言确实毫无秘密可言。[^5]</p>
+</blockquote>
+<p>　　任何一项工作必然有资源条件、时间、背景的限制科学研究更是如此，因此限定研究目标很重要。这就要从云计算发展路线开始说起，从开始的并行计算到集群计算，然后到网格计算，最后到云计算。关于云计算和网格计算的关系，云计算是最新的网格计算形态，是对网格计算的进一步发展，两者都试图将各种IT资源看成一个虚拟的资源池，然后向外提供相应的服务。云计算是在网络时代应运而生的技术制高点。只要把握住云计算的脉搏，就能在网络时代看得更远。过去的蒸汽机、信息工业化和互联网的普及给人类社会带来了巨大的变化。从信息技术的角度看，云计算是工业化的进一步发展，它将有望改变信息技术行业的整体结构。<br>　　<br>　　届时，我们只需要一台能上网的电脑，不需关心存储或计算发生在哪朵“云”上，但一旦有需要，我们可以在任何地点用任何设备，如电脑、手机等，快速地计算和找到这些资料。我们再也不用担心资料丢失。</p>
+<h3 id="三、云计算存在的问题需要更多的科学研究来解决"><a href="#三、云计算存在的问题需要更多的科学研究来解决" class="headerlink" title="三、云计算存在的问题需要更多的科学研究来解决"></a>三、云计算存在的问题需要更多的科学研究来解决</h3><p>　　提到云计算技术当前所面临的一些问题，可能安全问题是首要问题，因为现在的用户更多的是通过计算机系统来获得相应的IT技术服务，那么在进行系统的构建过程当中，就需要考虑到主机安全、系统安全以及网络安全等众多安全问题。在用户大量参与的情况下，不可避免的出现了隐私问题。用户在云计算平台上共享信息使用服务，那么云计算平台需要收集其相关信息。<br>　　<br>　　实际上，云计算的核心特征之一就是数据的储存和安全完全由云计算提供商负责。对于许多用户来说，这一方面降低了组织内部和个人成本，无需搭建平台即可享受云服务。但是，一旦数据脱离内网被共享至互的联网上，就无法通过物理隔离和其他手段防止隐私外泄。因此，许多的用户担心自己的隐私权会受到侵犯，其私密的信息会被泄露和使用。<br>　　<br>　　尽管云计算模式具有许多优点，但是也存在的一些问题，如数据隐私问题、安全问题、软件许可证问题、网络传输问题等。其主要问题有：</p>
+<blockquote>
+<ul>
+<li>数据隐私问题：如何保证存放在云服务提供商的数据隐私，不被非法利用，不仅需要技术的改进，也需要法律的进一步完善。</li>
+<li>数据安全性：有些数据是企业的商业机密，数据的安全性关系到企业的生存和发展。云计算数据的安全性问题解决不了会影响云计算在企业中的应用。</li>
+<li>用户使用习惯：如何改变用户的使用习惯，使用户适应网络化的软硬件应用是长期而艰巨的挑战。</li>
+<li>网络传输问题：云计算服务依赖网络，目前网速低且不稳定，使云应用的性能不高。云计算的普及依赖网络技术的发展。</li>
+</ul>
+</blockquote>
+<p>　　云平台可以将用户的数据信息进行高度的整合，这样就能够将用户的安全隐患转移给云平台终端，相对而言，云平台在安全问题的防范上更加可靠。目前，云计算技术在安全问题上已经有了长足的进步，通过对数据传输、数据存储、数据审计三个环节采取相应的安全措施，从而保障整个云平台的安全。[^2]<br>　　<br>　　云计算的隐私安全问题主要包括：</p>
+<blockquote>
+<p>1、在未经授权的情况下，他人以不正当的方式进行数据侵入，获得用户数据。<br>2、政府部门或其他权利机构为达到目的对云计算平台上的信息进行检查，获取相应的资料以到达监管和控制的目的。<br>3、云计算提供商为获取商业利益对用户信息进行收集和处理。</p>
+</blockquote>
+<p>　　与此同时，云计算的美好前景让传统IT厂商纷纷向云计算方向转型。但是由于缺乏统一的技术标准，尤其是接口标准，各厂商在开发各自产品和服务的过程中各自为政，这为将来不同服务之间的互连互通带来严峻挑战。</p>
+<p>　　
+　　</p>
+<p><strong>[结语]：</strong></p>
+<p>　　云计算的未来是一幅绚丽的图画，更多的科研成果在这幅图上描绘着灿烂的色彩，同时也有更多的画者参与进来，为其画上更加美丽的图景。我相信，当云计算真正走入我们的生活的时候，我们的生活一定会发生巨大的变革，那时候互联网将一切串联了起来，工作生活，物联互联，网络将与人与社会真正融为一体，让世界得到重构。
+　　
+　　
+　　
+　　</p>
+<p>　　
+　　
+　　</p>
+<p>　　<br><strong>[参考文献]：</strong><br>[^1]:<a href="https://zh.wikipedia.org/wiki/科学方法" target="_blank" rel="external">https://zh.wikipedia.org/wiki/科学方法</a>        维基百科关于科学方法的解释</p>
+<p>[^2]:<a href="https://zh.wikipedia.org/wiki/云端运算" target="_blank" rel="external">https://zh.wikipedia.org/wiki/云端运算</a>        维基百科关于云计算的解释</p>
+<p>[^3]:<a href="http://wiki.mbalib.com/wiki/科学方法学" target="_blank" rel="external">http://wiki.mbalib.com/wiki/科学方法学</a>        智库百科关于科学方法的概述</p>
+<p>[^4]:<a href="https://www.zhihu.com/question/40943776/answer/89222157" target="_blank" rel="external">https://www.zhihu.com/question/40943776/answer/89222157</a>    知乎作者云角信息技术关于云计算的回答</p>
+<p>[^5]:<a href="http://baike.baidu.com/view/1316082" target="_blank" rel="external">http://baike.baidu.com/view/1316082</a>        百度百科关于云计算的解释</p>
+<p>[^6]:<a href="http://www.chinanews.com/it/2010/08-09/2456432.shtml" target="_blank" rel="external">http://www.chinanews.com/it/2010/08-09/2456432.shtml</a>    中国新闻网关于云计算的核心技术的介绍</p>
+<blockquote>
+<p>最近访客</p>
+</blockquote>
+<div class="ds-recent-visitors" data-num-items="28" data-avatar-size="42" id="ds-recent-visitors"></div>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[我的第一篇博客]]></title>
+      <url>http://yoursite.com/2016/06/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+      <content type="html"><![CDATA[<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>期末网络程序设计实习，我们小组需要完成关于个人博客设计的课题，于是我在我租用的腾讯云服务器上搭建了一个简单的个人博客网页，运用hexo框架，使用next主题对外观进行修改，并且添加了一些个性化的功能。</p>
+<h2 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h2><p><img src="http://i3.go2yd.com/image.php?url=0DcRF6cXAG" alt="myPitcure"></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hello World!]]></title>
+      <url>http://yoursite.com/2016/06/21/Hello%20world!/</url>
+      <content type="html"><![CDATA[<p>欢迎来到我的第一个<a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>博客! 这是我的第一篇介绍博文。 查看<a href="https://hexo.io/docs/" target="_blank" rel="external">帮助文档</a>以查看更多信息。</p>
+<h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>更多: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="运行服务器"><a href="#运行服务器" class="headerlink" title="运行服务器"></a>运行服务器</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>更多信息: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>更多信息: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> blog/</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/A-limon/pacman.git</span><br><span class="line">$ vim _config.yml</span><br><span class="line">$ theme: <span class="string">"new theme"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<h3 id="常用命令总结"><a href="#常用命令总结" class="headerlink" title="常用命令总结"></a>常用命令总结</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;postName&quot; #新建文章</span><br><span class="line">hexo new page &quot;pageName&quot; #新建页面</span><br><span class="line">hexo generate #生成静态页面至public目录</span><br><span class="line">hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server）</span><br><span class="line">hexo deploy #将.deploy目录部署到GitHub</span><br></pre></td></tr></table></figure>
+<p>简写：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo n == hexo new</span><br><span class="line">hexo g == hexo generate</span><br><span class="line">hexo s == hexo server</span><br><span class="line">hexo d == hexo deploy</span><br></pre></td></tr></table></figure></p>
+<h3 id="目录介绍"><a href="#目录介绍" class="headerlink" title="目录介绍"></a>目录介绍</h3><p>默认目录结构：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── languages          #多语言</span><br><span class="line">|   ├── default.yml    #默认语言</span><br><span class="line">|   └── zh-CN.yml      #中文语言</span><br><span class="line">├── layout             #布局，根目录下的*.ejs文件是对主页，分页，存档等的控制</span><br><span class="line">|   ├── _partial       #局部的布局，此目录下的*.ejs是对头尾等局部的控制</span><br><span class="line">|   └── _widget        #小挂件的布局，页面下方小挂件的控制</span><br><span class="line">├── source             #源码</span><br><span class="line">|   ├── css            #css源码</span><br><span class="line">|   |   ├── _base      #*.styl基础css</span><br><span class="line">|   |   ├── _partial   #*.styl局部css</span><br><span class="line">|   |   ├── fonts      #字体</span><br><span class="line">|   |   ├── images     #图片</span><br><span class="line">|   |   └── style.styl #*.styl引入需要的css源码</span><br><span class="line">|   ├── fancybox       #fancybox效果源码</span><br><span class="line">|   └── js             #javascript源代码</span><br><span class="line">├── _config.yml        #主题配置文件</span><br><span class="line">└── README.md          #用GitHub的都知道</span><br></pre></td></tr></table></figure></p>
+<h3 id="配置文件整体介绍"><a href="#配置文件整体介绍" class="headerlink" title="配置文件整体介绍"></a>配置文件整体介绍</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br></pre></td><td class="code"><pre><span class="line"># Hexo Configuration</span><br><span class="line"></span><br><span class="line"># Site</span><br><span class="line">title:            #网站标题</span><br><span class="line">subtitle:         #次标题</span><br><span class="line">description:      #描述</span><br><span class="line">author:           #作者</span><br><span class="line">email:            #邮箱</span><br><span class="line">language: zh-Hans #简体中文字体</span><br><span class="line"></span><br><span class="line"># URL</span><br><span class="line">url:  #域名</span><br><span class="line">root: /</span><br><span class="line">permalink: :year/:month/:day/:title/ #URL结构</span><br><span class="line">tag_dir: tags #标签</span><br><span class="line">archive_dir: archives #汇总</span><br><span class="line">category_dir: categories #分类</span><br><span class="line">code_dir: downloads/code</span><br><span class="line"></span><br><span class="line"># Writing</span><br><span class="line">new_post_name: :title.md # 新的文章名</span><br><span class="line">default_layout: post #New的默认</span><br><span class="line">auto_spacing: false # Add spaces between asian and western characters</span><br><span class="line">titlecase: false # Transform title into titlecase</span><br><span class="line">external_link: true # Open external links in new tab</span><br><span class="line">max_open_file: 100</span><br><span class="line">multi_thread: true</span><br><span class="line">filename_case: 0</span><br><span class="line">render_drafts: false</span><br><span class="line">highlight: #代码高亮</span><br><span class="line">enable: true</span><br><span class="line">  line_number: true # 是否显示行号</span><br><span class="line"> tab_replace:</span><br><span class="line"></span><br><span class="line"># Category &amp; Tag #分类与标签</span><br><span class="line">default_category: uncategorized</span><br><span class="line">category_map:</span><br><span class="line">tag_map:</span><br><span class="line"></span><br><span class="line"># Archives #存档。全部选择1，这个选项与主题中的选项有时候会有冲突</span><br><span class="line">## 2: Enable pagination # 激活分页</span><br><span class="line">## 1: Disable pagination # 禁止分页</span><br><span class="line">## 0: Fully Disable # 全部禁止</span><br><span class="line">archive: 1</span><br><span class="line">category: 1</span><br><span class="line">tag: 1</span><br><span class="line"></span><br><span class="line"># Server #本地服务参数</span><br><span class="line">port: 4000 # 预览端口</span><br><span class="line">logger: false</span><br><span class="line">logger_format:</span><br><span class="line"></span><br><span class="line"># Date / Time format # 时间格式</span><br><span class="line">date_format: MMM D YYYY</span><br><span class="line">time_format: H:mm:ss</span><br><span class="line"></span><br><span class="line"># Pagination # 分页数</span><br><span class="line">per_page: 10</span><br><span class="line">pagination_dir: page</span><br><span class="line"></span><br><span class="line"># Disqus #Disqus评论</span><br><span class="line">disqus_shortname:</span><br><span class="line"></span><br><span class="line"># Extensions</span><br><span class="line">theme:  #主题</span><br><span class="line">exclude_generator:</span><br><span class="line"></span><br><span class="line"># Deployment #上传</span><br><span class="line">deploy:</span><br></pre></td></tr></table></figure>
+]]></content>
+    </entry>
+    
+  
+  
+</search>
