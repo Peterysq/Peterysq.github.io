@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/06/24/%E5%85%B3%E4%BA%8E%E4%BA%91%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%A7%91%E7%A0%94%E6%96%B9%E6%B3%95%E7%9A%84%E7%A0%94%E7%A9%B6/</loc>
+    <lastmod>2016-06-25T17:58:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>关于云计算与科研方法的研究</title>
+        <pubTime>2016-06-24T06:06:00.000Z</pubTime>
+        
+        <tag>云计算</tag>
+         
+        <tag>科学研究</tag>
+         
+        <tag>科学方法</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/06/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2016-06-25T03:22:34.000Z</lastmod>
+    <data>
+        <display>
+        <title>我的第一篇博客</title>
+        <pubTime>2016-06-21T13:42:00.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>blog</tag>
+         
+        <tag>个人服务器</tag>
+         
+        <tag>next主题</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+  <url>
+    <loc>http://yoursite.com/2016/06/21/Hello%20world!/</loc>
+    <lastmod>2016-06-22T04:59:42.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World!</title>
+        <pubTime>2016-06-21T03:08:00.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
