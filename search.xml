@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[关于云计算与科研方法的研究]]></title>
-      <url>http://yoursite.com/2016/06/24/%E5%85%B3%E4%BA%8E%E4%BA%91%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%A7%91%E7%A0%94%E6%96%B9%E6%B3%95%E7%9A%84%E7%A0%94%E7%A9%B6/</url>
+      <url>https://peterysq.github.io/2016/06/24/%E5%85%B3%E4%BA%8E%E4%BA%91%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%A7%91%E7%A0%94%E6%96%B9%E6%B3%95%E7%9A%84%E7%A0%94%E7%A9%B6/</url>
       <content type="html"><![CDATA[<p><strong>[摘要]：</strong></p>
 <p>　　现代计算机网络技术研究中，科学家采用了一系列科学研究方法进行研究。这些新科学方法的出现和运用，一方面为科学家们解决计算机理论中的难题、实现科学研究领域中的重大突破提供了重要手段，另一方面为丰富和发展马克思主义的哲学认识论提供了极为宝贵的实践材料和理论依据。<br>　　本文主要从科学研究与云计算的的关系，科学研究与云计算的的指导入手来研究计算机的网络新技术云计算。</p>
 <h3 id="一、当代科研发展迅速需要更高的技术支撑和推动力"><a href="#一、当代科研发展迅速需要更高的技术支撑和推动力" class="headerlink" title="一、当代科研发展迅速需要更高的技术支撑和推动力"></a>一、当代科研发展迅速需要更高的技术支撑和推动力</h3><p> 　　随着当代科学技术的迅猛发展，学科愈来愈多，分工愈来愈细，作为研究开发科学技术的方法就愈来愈显得重要，并趋于成熟完善、自成体系，形成一门全面揭示科学研究方法规律的科学——科学方法学。<br> 　　<br> 　　科学研究的方法，大体上可分为三类：第一类是适用于一切科学的最普遍的研究方法，即唯物辩证法和逻辑方法；第二类是适用于自然科学的一般研究方法，例如观察、实验、模拟(控制)、系统、信息和数字等方法；第三类是适用某几门或一门自然科学的特殊的研究方法。科学方法学在总结和概括这三类基本方法的基础上，揭示了科学研究这一事物的本质和运动规律，确立了研究方法的准则、基本理论和一般原则。[^1]<br> 　　<br>　　在计算科学领域，云计算是近些年被业界热议的重点话题之一，公有云、私有云、混合云等等这些名词时常出现，让人迷惑不解。其实笼统的来讲，云计算是一种新型的计算模式，其主要特点是在互联网存在的基础上通过动态可伸缩的虚拟化资源来进行计算。随着云计算的兴起，世界着名的IT企业如Microsoft、Google等公司都加入到了云计算的开发当中，对国内云计算产业来说，近年在云计算的学术领域、技术应用领域多诸多方面都进行了非常多的探索和尝试。<br>　　<br>　　云计算系统运用了许多技术，其中以编程模型、数据管理技术、数据存储技术、虚拟化技术、云计算平台管理技术最为关键，这些技术促使云成为科学研究最重要的工具之一。<br>　　<br>　　云计算核心技术如下：</p>
@@ -108,7 +108,7 @@
     
     <entry>
       <title><![CDATA[我的第一篇博客]]></title>
-      <url>http://yoursite.com/2016/06/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+      <url>https://peterysq.github.io/2016/06/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
       <content type="html"><![CDATA[<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>期末网络程序设计实习，我们小组需要完成关于个人博客设计的课题，于是我在我租用的腾讯云服务器上搭建了一个简单的个人博客网页，运用hexo框架，使用next主题对外观进行修改，并且添加了一些个性化的功能。</p>
 <h2 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h2><p><img src="http://i3.go2yd.com/image.php?url=0DcRF6cXAG" alt="myPitcure"></p>
 ]]></content>
@@ -116,7 +116,7 @@
     
     <entry>
       <title><![CDATA[Hello World!]]></title>
-      <url>http://yoursite.com/2016/06/21/Hello%20world!/</url>
+      <url>https://peterysq.github.io/2016/06/21/Hello%20world!/</url>
       <content type="html"><![CDATA[<p>欢迎来到我的第一个<a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>博客! 这是我的第一篇介绍博文。 查看<a href="https://hexo.io/docs/" target="_blank" rel="external">帮助文档</a>以查看更多信息。</p>
 <h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>更多: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
