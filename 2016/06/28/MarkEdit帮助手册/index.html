@@ -1,0 +1,1044 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="markdown,MarkEdit,语法,学习," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Peter's blog" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="MarkEditor的Markdown语法
+ Markdown是非常棒以及流行的写作语法，平文本，「易读易写」，一般只需几分钟就能学会Markdown的基本用法。
+基本语法
+标题:一级标题二级标题三级标题四级标题五级标题六级标题分别对应HTML中的&amp;lt;h1&amp;gt;一级标题&amp;lt;/h1&amp;gt;，以此类推。
+用两个星号标记起来，表示加粗，一个星号，表示斜体，这样子表示删除，这些就是最基本的语法了">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MarkEdit语法手册">
+<meta property="og:url" content="https://peterysq.github.io/2016/06/28/MarkEdit帮助手册/index.html">
+<meta property="og:site_name" content="Peter's blog">
+<meta property="og:description" content="MarkEditor的Markdown语法
+ Markdown是非常棒以及流行的写作语法，平文本，「易读易写」，一般只需几分钟就能学会Markdown的基本用法。
+基本语法
+标题:一级标题二级标题三级标题四级标题五级标题六级标题分别对应HTML中的&amp;lt;h1&amp;gt;一级标题&amp;lt;/h1&amp;gt;，以此类推。
+用两个星号标记起来，表示加粗，一个星号，表示斜体，这样子表示删除，这些就是最基本的语法了">
+<meta property="og:image" content="https://peterysq.github.io/图片的url">
+<meta property="og:image" content="https://peterysq.github.io/图片的url">
+<meta property="og:image" content="https://peterysq.github.io/图片的url">
+<meta property="og:updated_time" content="2016-06-27T16:27:18.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MarkEdit语法手册">
+<meta name="twitter:description" content="MarkEditor的Markdown语法
+ Markdown是非常棒以及流行的写作语法，平文本，「易读易写」，一般只需几分钟就能学会Markdown的基本用法。
+基本语法
+标题:一级标题二级标题三级标题四级标题五级标题六级标题分别对应HTML中的&amp;lt;h1&amp;gt;一级标题&amp;lt;/h1&amp;gt;，以此类推。
+用两个星号标记起来，表示加粗，一个星号，表示斜体，这样子表示删除，这些就是最基本的语法了">
+<meta name="twitter:image" content="https://peterysq.github.io/图片的url">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+
+
+
+  <link rel="canonical" href="https://peterysq.github.io/2016/06/28/MarkEdit帮助手册/"/>
+
+  <title> MarkEdit语法手册 | Peter's blog </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta custom-logo">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Peter's blog</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404.html" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="st-search-show-outputs">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'JTcXaSSPGy8WTuyyUkZ7','2.0.0');
+</script>
+
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                MarkEdit语法手册
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-06-28T00:20:54+08:00" content="2016-06-28">
+              2016-06-28
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/06/28/MarkEdit帮助手册/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/06/28/MarkEdit帮助手册/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/06/28/MarkEdit帮助手册/" class="leancloud_visitors" data-flag-title="MarkEdit语法手册">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+              &nbsp; | &nbsp;
+              <span class="page-pv"><i class="fa fa-file-o"></i>
+              <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+              </span>
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="MarkEditor的Markdown语法"><a href="#MarkEditor的Markdown语法" class="headerlink" title="MarkEditor的Markdown语法"></a>MarkEditor的Markdown语法</h1><blockquote>
+<p> Markdown是非常棒以及流行的写作语法，平文本，「易读易写」，一般只需几分钟就能学会Markdown的基本用法。</p>
+<h1 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h1></blockquote>
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题:"></a>标题:</h2><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>分别对应HTML中的<code>&lt;h1&gt;一级标题&lt;/h1&gt;</code>，以此类推。</p>
+<p><strong>用两个星号标记起来，表示加粗</strong>，<em>一个星号，表示斜体</em>，<del>这样子表示删除</del>，这些就是最基本的语法了。</p>
+<h2 id="插入链接"><a href="#插入链接" class="headerlink" title="插入链接"></a>插入链接</h2><p><strong>插入链接:</strong><br>这是一个 <a href="http://url.com/" target="_blank" rel="external">链接</a></p>
+<p><strong>快速链接:</strong><br>只需要在网址头尾用尖括号包裹即可，比如<a href="http://url.com" target="_blank" rel="external">http://url.com</a></p>
+<p><strong>另外一种插链接的语法:</strong><br>这是一个 <a href="http://the_url.com/" target="_blank" rel="external">链接</a>，然后，在文档的任何一行中(通常在文档末尾比较合适)，对这个链接进行定义，比如: </p>
+<p><strong>邮箱链接:</strong><br>这是一个 <a href="&#109;&#97;&#x69;&#x6c;&#x74;&#111;&#58;&#x6d;&#121;&#110;&#x61;&#x6d;&#x65;&#64;&#101;&#x78;&#x61;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#x63;&#111;&#109;">&#x6d;&#121;&#110;&#x61;&#x6d;&#x65;&#64;&#101;&#x78;&#x61;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#x63;&#111;&#109;</a> 邮箱的链接。</p>
+<p><strong>MarkEditor特别支持:</strong><br><a href="google.com">Google (target=_blank id=google_link)</a>  其中内容括号内的<code>target=_blank id=google_link</code> 会自动扩展到最终 HTML 对应 A 标签下的属性，另外，<code>google.com</code> 作为一个域名，不需要补全<code>http://</code>, 最终会自动补全。</p>
+<h2 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h2><blockquote>
+<p>插入图片的语法跟插链接很像，在MarkEditor中，一般可以通过拖拽的方式进行插图，不一定会看到这个语法，而可能直接看到图片本身。</p>
+</blockquote>
+<p><strong>常见的插图语法:</strong><br><img src="图片的url" alt="图片的alt信息，可空)"></p>
+<p><strong>另一种插图语法:</strong><br><img src="图片的url" alt="alt text"></p>
+<p><strong>MarkEditor特别支持:</strong><br><img src="图片的url" alt="图片的alt信息，可空)">的形式中，如果图片的 url 不是 Web 地址，而是本地的指向，则后面跟上<code>?r=90&amp;w=100&amp;h=100</code>，可以设定图片的尺寸。其中 r 表示缩放90%,  w 表示最大宽度 (像素)，h 表示最大高度。r、w、h 并不需要全部进行声明，按需则可。<br>如果是图片直接在编辑区域内可见(非 Markdown 语法显示)，则按住 Command 键 (Windows 版为 Ctrl 键)再点击图片，可以直接进行调整。</p>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p><strong>无序列表:</strong></p>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+<p><strong>有序列表则使用数字接着一个英文句点：</strong></p>
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<p><strong>也可以混合在一起使用:</strong></p>
+<ul>
+<li>Bird<ul>
+<li>blue bird</li>
+</ul>
+</li>
+<li>McHale<ol>
+<li>a man</li>
+<li>HoustonRockets</li>
+</ol>
+</li>
+<li>Parish</li>
+</ul>
+<h2 id="居中与居右"><a href="#居中与居右" class="headerlink" title="居中与居右"></a>居中与居右</h2><p>单独一行的时候，<code>[文本内容]</code>表示居中对齐，<code>[文本内容]]</code>表示居右(右侧再多一个<code>]</code>)，其它默认情况下都是居左。<br>[我是居中的文本]<br>[我是居右的文本]]</p>
+<h2 id="内容引用"><a href="#内容引用" class="headerlink" title="内容引用"></a>内容引用</h2><p>用<code>&gt;</code>放在段首，之后是空格，输入文字:</p>
+<blockquote>
+<p>你<br>一会看我<br>一会看云</p>
+<p> 我觉得<br> 你看我时很远<br> 你看云时很近</p>
+</blockquote>
+<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><p><strong><code>-</code>加上空格组成，三个以上:</strong></p>
+<hr>
+<h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><p>// 这是 MarkEditor 的特别支持!<br>/// 多了一个/，也是注释，但最终注释内容不会出现在源码中。<br>注释后的内容，最终会以 HTML 的注释格式<code>&lt;!--我是内容--&gt;</code>存在，不会显示在正文中，但包含在 HTML 的源码中；如果是<code>///</code>开头的，则也不包括在源码中。</p>
+<h1 id="代码高亮"><a href="#代码高亮" class="headerlink" title="代码高亮"></a>代码高亮</h1><h2 id="代码高亮语法"><a href="#代码高亮语法" class="headerlink" title="代码高亮语法"></a>代码高亮语法</h2><p>通过fenced code的方式(代码块的头尾被三个反引号包裹)，然后声明代码语言类型，即可实现代码高亮。不仅仅是最终的HTML预览会处理代码高亮，实时输入的过程中也是高亮的。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">s = <span class="string">'hello world'</span></span><br></pre></td></tr></table></figure></p>
+<p>代码语言的类型后面跟上<code>:n</code>，则最终在渲染为HTML(预览)的时候，代码块会标示行数。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">s = &apos;hello world&apos;</span><br></pre></td></tr></table></figure></p>
+<h2 id="代码高亮示例"><a href="#代码高亮示例" class="headerlink" title="代码高亮示例"></a>代码高亮示例</h2><blockquote>
+<p>MarkEditor支持超过300种代码类型的高亮，以下是一些示例:</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> settings <span class="keyword">import</span> world</span><br><span class="line"><span class="keyword">if</span> world == <span class="string">'mine'</span></span><br><span class="line">   kept =  keep(world)</span><br></pre></td></tr></table></figure>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sum = <span class="number">1</span> + <span class="number">2</span></span><br><span class="line">a, b = <span class="number">1</span>, <span class="number">2</span></span><br><span class="line"><span class="number">1</span> &gt; <span class="number">2</span> ? <span class="literal">true</span> : <span class="literal">false</span>; puts <span class="string">'Hi'</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Cocoa</span><br><span class="line"><span class="keyword">let</span> a = <span class="number">4</span></span><br><span class="line"><span class="keyword">var</span> s = <span class="string">"Hello "</span> + <span class="string">"World!"</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);</span><br><span class="line"><span class="keyword">var</span> app = express();</span><br><span class="line">app.get(<span class="string">'/'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">req, res</span>)</span>&#123;</span><br><span class="line">  res.send(<span class="string">'hello world'</span>);</span><br><span class="line">&#125;);</span><br><span class="line">app.listen(<span class="number">3000</span>);</span><br></pre></td></tr></table></figure>
+<h1 id="表格与制图"><a href="#表格与制图" class="headerlink" title="表格与制图"></a>表格与制图</h1><blockquote>
+<p><strong>MarkEditor 不仅是更易于输入表格，还能自动生成线图、柱状图、饼图……</strong></p>
+</blockquote>
+<h2 id="MarkEditor风格的表格语法"><a href="#MarkEditor风格的表格语法" class="headerlink" title="MarkEditor风格的表格语法"></a>MarkEditor风格的表格语法</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">项目        |      价格    |    描述</span><br><span class="line">尺子        |      ￥2      |   说明内容，也可为空</span><br><span class="line">本子        |      ￥8     (描述偷懒不写完第三项也可以，不会破坏表格结构)   </span><br><span class="line">Tip        |      ￥18    |  **光标在表格区域时，右键点击，有更简单的“编辑表格”命令**</span><br></pre></td></tr></table></figure>
+<p>第一行是表格的第一栏，每个项的文本中可以追加<code>(-)</code>、<code>(&gt;)</code>、<code>(&lt;)</code>来实现某列内的文本对齐，它们也分别等同于<code>(center)</code>、<code>(right)</code>、<code>(left)</code>。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">项目(-)     |      价格(&gt;)    |    描述(&lt;) </span><br><span class="line">尺子        |      ￥20         |   ?         </span><br><span class="line">本子        |      ￥8</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>自定义补全缺失的字符<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">项目        |      价格    |    描述</span><br><span class="line">尺子        </span><br><span class="line">本子</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p>表格会自动补全缺失的<strong>列</strong>，这样一来，<code>尺子</code>和<code>本子</code>的<code>价格</code>、<code>描述</code>就全部是<code>我是缺失的补全</code>了。</p>
+<h2 id="自动制图语法"><a href="#自动制图语法" class="headerlink" title="自动制图语法"></a>自动制图语法</h2><p>MarkEditor 支持三种类型的制图，声明 table 的时候，后面加上 line、pie、bar三者之一即可。<br>比如下面的 Demo (具体效果，可以查看预览)</p>
+<h3 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h3><p><strong>最简单的一个图表:</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">衬衫   |   羊毛衫   |   雪纺衫   |   裤子   |   高跟鞋   |   袜子</span><br><span class="line">15   |   20   |   36   |   10   |   10   |   20</span><br></pre></td></tr></table></figure></p>
+<p><strong>也可以是横向的</strong>:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">品类   |  数量</span><br><span class="line">衬衫   |   15</span><br><span class="line">羊毛衫   |   20  </span><br><span class="line">雪纺衫  |  36</span><br><span class="line">裤子 |  10</span><br><span class="line">高跟鞋 | 10</span><br><span class="line">袜子 |   20</span><br></pre></td></tr></table></figure></p>
+<hr>
+<p><strong>还可以是这种横纵两个维度的:</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">季度 | 衬衫 | 羊毛衫 | 雪纺衫 | 裤子 | 高跟鞋 | 袜子</span><br><span class="line">1季度 | 5 | 20 | 36 | 10 | 10 | 21</span><br><span class="line">2季度 | 15 | 20 | 6 | 10 | 10 | 30</span><br><span class="line">3季度上(3季度) | 2 | 2 | 16 | 8 | 6 | 30</span><br><span class="line">3季度下(3季度) | 5 | 2 | 13 | 10 | 9 | 20</span><br></pre></td></tr></table></figure></p>
+<p>注意: <code>3季度上(3季度)</code> 和 <code>3季度下(3季度)</code>会自动实现归档，合并到同一个柱状图中。</p>
+<h2 id="线图"><a href="#线图" class="headerlink" title="线图"></a>线图</h2><p>跟柱状图非常类似，只需要将上面柱状图的几个 demo，由<code>table:bar</code>改为<code>table:line</code>即可。</p>
+<h2 id="饼图"><a href="#饼图" class="headerlink" title="饼图"></a>饼图</h2><p><strong>最简单的一个图表:</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">衬衫   |   羊毛衫   |   雪纺衫   |   裤子   |   高跟鞋   |   袜子</span><br><span class="line">15   |   20   |   36   |   10   |   10   |   20</span><br></pre></td></tr></table></figure></p>
+<p><strong>也可以是横向的</strong>:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">品类   |  数量</span><br><span class="line">衬衫   |   15</span><br><span class="line">羊毛衫   |   20  </span><br><span class="line">雪纺衫  |  36</span><br><span class="line">裤子 |  10</span><br><span class="line">高跟鞋 | 10</span><br><span class="line">袜子 |   20</span><br></pre></td></tr></table></figure></p>
+<p><strong>自动归档</strong>:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">品类   |  数量</span><br><span class="line">衬衫(衣服)   |   15</span><br><span class="line">羊毛衫(衣服)   |   20  </span><br><span class="line">雪纺衫(衣服)  |  36</span><br><span class="line">裤子 |  10</span><br><span class="line">高跟鞋(鞋袜) | 10</span><br><span class="line">袜子(鞋袜) |   20</span><br></pre></td></tr></table></figure></p>
+<h1 id="Meta支持"><a href="#Meta支持" class="headerlink" title="Meta支持"></a>Meta支持</h1><hr>
+<p>date: 2015-01-10 19:55<br>layout: ‘post’<br>title: ‘Blogging Like a Hacker’<br>tags:</p>
+<pre><code>- &quot;hello&quot;
+- &apos;ruby&apos;
+</code></pre><p>status: ‘public’</p>
+<h2 id="categories-lessons-beginner"><a href="#categories-lessons-beginner" class="headerlink" title="categories : [lessons, beginner]"></a>categories : [lessons, beginner]</h2><p>如上所示，首行以<code>---</code>开始，内部使用yaml格式，并最终以<code>---</code>单独一行结束的，会最终解析为文章的元信息(描述性信息)，一般Jekyll、Hexo等静态博客用得比较多。</p>
+<p>另外，MarkEditor的Markdown解析，也支持FarBox的简洁性Meta声明，就是首行开始，每行用<code>key: value</code>格式进行声明的，其中<code>key</code>必须是英文名。</p>
+<p>比如<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">date: 2015-01-10 19:55</span><br><span class="line">layout: &apos;post&apos;</span><br><span class="line">title: &apos;Blogging Like a Hacker&apos;</span><br><span class="line"></span><br><span class="line">然后这里是正文的开始...</span><br></pre></td></tr></table></figure></p>
+<h1 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h1><h2 id="MarkEditor风格的流程图语法"><a href="#MarkEditor风格的流程图语法" class="headerlink" title="MarkEditor风格的流程图语法"></a>MarkEditor风格的流程图语法</h2><p>流程图的语法规则实际上是基于<a href="http://adrai.github.io/flowchart.js/" target="_blank" rel="external">http://adrai.github.io/flowchart.js/</a>实现的，只要申明语言类型为<code>flow</code>即可。<br>但是我们认为原始插件的语法有些晦涩，所以在兼容原有语法的基础上，又重新进行了演绎，效果如下:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">st: 起始</span><br><span class="line">register: 注册</span><br><span class="line">condition: 好人?</span><br><span class="line">check: 盘查一下</span><br><span class="line">end: 终了</span><br><span class="line"></span><br><span class="line">st &gt; condition</span><br><span class="line">condition(y) &gt; register &gt; end</span><br><span class="line">condition(n) &gt; check &gt; register</span><br></pre></td></tr></table></figure>
+<h2 id="原始语法-示例"><a href="#原始语法-示例" class="headerlink" title="原始语法(示例)"></a>原始语法(示例)</h2><blockquote>
+<p>更多请参考<a href="http://adrai.github.io/flowchart.js/" target="_blank" rel="external">http://adrai.github.io/flowchart.js/</a></p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">st=&gt;start: Start</span><br><span class="line">op=&gt;operation: Your Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">e=&gt;end</span><br><span class="line"></span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure>
+<h1 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h1><blockquote>
+<p>你<br>一会看我<br>一会看云</p>
+<p> 我觉得<br> 你看我时很远<br> 你看云时很近</p>
+</blockquote>
+<p>这首诗的作者是顾城<a href="顾城，童话诗人，以及坏掉了的人。">^gucheng</a>的《远和近》。<br>其中<code>[^gucheng]</code>就是脚注的声明，你可以在文末对这个关键标注进行说明。除此之外，在标注内容上点击鼠标右键，可以让光标在标注、最终补充的(脚注)内容进行快速跳转。</p>
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h2 id="TOC"><a href="#TOC" class="headerlink" title="TOC"></a>TOC</h2><p>[TOC]<br>如上所示，单独一行的<code>[TOC]</code>，最终会被解析为当前文章的内容索引。</p>
+<h2 id="PDF分页"><a href="#PDF分页" class="headerlink" title="PDF分页"></a>PDF分页</h2><p>导出PDF需要在指定位置强制分页的，可以单独一行输入<code>[PAGE]</code>。</p>
+<h2 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h2><p>使用插入代码的方式，但是需要声明语言为<code>mathjax</code>，示例如下:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">x = &#123;-b \pm \sqrt&#123;b^2-4ac&#125; \over 2a&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">E = mc^2</span><br></pre></td></tr></table></figure>
+<h2 id="div-block"><a href="#div-block" class="headerlink" title="div-block"></a>div-block</h2><!--/ style="text-align:center; color:red" /-->
+<p>hello world<br><!--/--></p>
+<p>由于有些时候会因为最终的 HTML 布局，可能需要将某块内容特别标注出来，<code>div-block</code>就是为此目的而生。<br>如上，最终的 HTML 会用一个 div 的外部对象包裹:<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"md_div_block"</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">"text-align:center; color:red"</span>&gt;</span></span><br><span class="line">     这里是正常 markdown 解析后的结果，实际上由两个 div 元素组成，一个最外面的有`md_div_block`作为 class，另一个子 div 承载 div-block 头部声明时候的属性。</span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="comment">&lt;!--md_div_block_ends--&gt;</span></span><br></pre></td></tr></table></figure></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/markdown/" rel="tag">#markdown</a>
+          
+            <a href="/tags/MarkEdit/" rel="tag">#MarkEdit</a>
+          
+            <a href="/tags/语法/" rel="tag">#语法</a>
+          
+            <a href="/tags/学习/" rel="tag">#学习</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/06/27/hexo命令笔记/" rel="next" title="hexo常用命令笔记">
+                <i class="fa fa-chevron-left"></i> hexo常用命令笔记
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/06/28/MarkEdit帮助手册/"
+           data-title="MarkEdit语法手册" data-url="https://peterysq.github.io/2016/06/28/MarkEdit帮助手册/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/123.jpeg"
+               alt="peter ysq" />
+          <p class="site-author-name" itemprop="name">peter ysq</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">5</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/peterysq" target="_blank" title="Github">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Github
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.zhihu.com/people/yang-shao-qing-67" target="_blank" title="知乎">
+                  
+                    <i class="fa fa-fw fa-zhihu"></i>
+                  
+                  知乎
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/u/3903280172" target="_blank" title="新浪微博">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  新浪微博
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#MarkEditor的Markdown语法"><span class="nav-number">1.</span> <span class="nav-text">MarkEditor的Markdown语法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#基本语法"><span class="nav-number">2.</span> <span class="nav-text">基本语法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#标题"><span class="nav-number">2.1.</span> <span class="nav-text">标题:</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一级标题"><span class="nav-number">3.</span> <span class="nav-text">一级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#二级标题"><span class="nav-number">3.1.</span> <span class="nav-text">二级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#三级标题"><span class="nav-number">3.1.1.</span> <span class="nav-text">三级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#四级标题"><span class="nav-number">3.1.1.1.</span> <span class="nav-text">四级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#五级标题"><span class="nav-number">3.1.1.1.1.</span> <span class="nav-text">五级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#六级标题"><span class="nav-number">3.1.1.1.1.1.</span> <span class="nav-text">六级标题</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#插入链接"><span class="nav-number">3.2.</span> <span class="nav-text">插入链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#插入图片"><span class="nav-number">3.3.</span> <span class="nav-text">插入图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#列表"><span class="nav-number">3.4.</span> <span class="nav-text">列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#居中与居右"><span class="nav-number">3.5.</span> <span class="nav-text">居中与居右</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#内容引用"><span class="nav-number">3.6.</span> <span class="nav-text">内容引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分割线"><span class="nav-number">3.7.</span> <span class="nav-text">分割线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注释"><span class="nav-number">3.8.</span> <span class="nav-text">注释</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#代码高亮"><span class="nav-number">4.</span> <span class="nav-text">代码高亮</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#代码高亮语法"><span class="nav-number">4.1.</span> <span class="nav-text">代码高亮语法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码高亮示例"><span class="nav-number">4.2.</span> <span class="nav-text">代码高亮示例</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#表格与制图"><span class="nav-number">5.</span> <span class="nav-text">表格与制图</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#MarkEditor风格的表格语法"><span class="nav-number">5.1.</span> <span class="nav-text">MarkEditor风格的表格语法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自动制图语法"><span class="nav-number">5.2.</span> <span class="nav-text">自动制图语法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#柱状图"><span class="nav-number">5.2.1.</span> <span class="nav-text">柱状图</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#线图"><span class="nav-number">5.3.</span> <span class="nav-text">线图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#饼图"><span class="nav-number">5.4.</span> <span class="nav-text">饼图</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Meta支持"><span class="nav-number">6.</span> <span class="nav-text">Meta支持</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#categories-lessons-beginner"><span class="nav-number">6.1.</span> <span class="nav-text">categories : [lessons, beginner]</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#流程图"><span class="nav-number">7.</span> <span class="nav-text">流程图</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#MarkEditor风格的流程图语法"><span class="nav-number">7.1.</span> <span class="nav-text">MarkEditor风格的流程图语法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#原始语法-示例"><span class="nav-number">7.2.</span> <span class="nav-text">原始语法(示例)</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#脚注"><span class="nav-number">8.</span> <span class="nav-text">脚注</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#其他"><span class="nav-number">9.</span> <span class="nav-text">其他</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#TOC"><span class="nav-number">9.1.</span> <span class="nav-text">TOC</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PDF分页"><span class="nav-number">9.2.</span> <span class="nav-text">PDF分页</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数学公式"><span class="nav-number">9.3.</span> <span class="nav-text">数学公式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#div-block"><span class="nav-number">9.4.</span> <span class="nav-text">div-block</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">peter ysq</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
+  
+
+  
+    <span class="site-pv"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"peterysq"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+  
+
+
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';                
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+                            
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').mousedown(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+  
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("ReLyJiwkK3YMa22rYhhu422P-gzGzoHsz", "SrYCAHvuwQFHJrR8hlk1pezD");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+</body>
+</html>
